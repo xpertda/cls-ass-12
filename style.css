@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    width: 1296px;
+	height: 170px;
+	background: #000;
+    text-align: center;
+    margin: 0px;
+}
+.menu ul li{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left: 40px;
+    list-style: none;
+}
+.menu ul li a{
+    font-size: 25px;
+    color: #a39696;
+    text-decoration: none;
+    padding: 60px 0px;
+    display: block;
+    
+}
+.menu ul li ul.sub-menu{
+    position: absolute;
+    background: #000;
+    width: 300px;
+    top: 100px;
+    left: 0;
+    border-top: 3px solid #3f70dc;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .0.3s;
+    z-index: 99;
+    
+
+}
+.menu ul li:hover ul.sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.menu ul li ul li:hover a{
+     background: #3f70dc;
+     transform: 0.3s;
+
+
+}
+.menu ul li ul.sub-menu li{
+    display: block;
+    margin: 0px;
+    
+}
+ol, ul {
+	padding-left: 0rem;
+}
+dl, ol, ul {
+	margin-top: 0;
+	margin-bottom: 0rem;
+}
+.menu ul li ul.sub-menu li a{
+    color: white;
+    background: #000;
+    padding: 15px 20px;
+    font-size: 25px;
+}
+.menu ul li ul.sub-menu li a:hover{
+    background: #3f70dc;
+    padding-left: 10px;
+}
+.menu ul li ul.sub-menu li ul.sub-menu{
+    top: 0;
+    left: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transform: all linear 0.3s;
+}
+.menu ul li ul.sub-menu li:hover ul.sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+.slider {
+	position: absolute;
+	top: 17px;
+	margin-top: 360px;
+	color: black;
+	background: white;
+	padding: 10px;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 515px;
+}
+.slider-sub {
+    position: absolute;
+    top: 17px;
+    margin-top: 460px;
+    color: black;
+    background: white;
+    width: 1207px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+}
+.slider-but {
+    /* position: absolute; */
+    top: 0px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid red;
+    /* margin-right: 59px;
+    margin-top: 560px; */
+    transform: all linear 0.5s;
+}
+
+.img input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.slider-but:hover{
+    background: white;
+    color: black;
+    opacity: 1;
+    transition: 0.3s;
+}
+.list1{
+    width: 1296px;
+    height: 550px;
+    top: 10px;
+    background: white;
+    color: #000;
+    border-Top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    text-align: center;
+}
+.list1 p{
+    position: relative;
+    width: 1296px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.list2{
+    width: 1296px;
+    height: 550px;
+    background: white;
+    border: 5px solid white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    text-align: center;
+}
+.lsit2 p{
+    position: relative;
+    width: 1296px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.sub{
+    width: 1296px;
+    height: 200px;
+    background: #f2f2f2;
+}
+.sub-e {
+	width: 650px;
+	height: 56px;
+	background: white;
+	margin-top: 70px;
+	margin-left: 234px;
+	border: 1px solid white;
+	padding: 15px;
+	border-bottom: 1px solid red;
+}
+.sub-b {
+	position: absolute;
+	width: 162px;
+    height: 56px;
+	margin-top: 69px;
+	background: red;
+	color: white;
+	font-weight: bold;
+	border: 2px solid rgb(255, 0, 0);
+	padding: 15px;
+    opacity: 1;
+	transform: all linear 0.3s;
+}
+
+.sub-b:hover{
+    background: white;
+    color: black;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.list3{
+    width: 1296px;
+    height: 300px;
+    background: white;
+    border: 6px dotted #f5f5f5;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+}
+.list3 h2{
+    text-align: center;
+
+}
+.list3 ol {
+    margin-left: 30px;
+    display: inline-block;
+}
+.g{list-style-type: lower-greek;}
+.lastmenu{
+    width: 1296px;
+    height: 150px;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+.lastmenu ul li{
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: #5ea5fa;   
+}
+.lastmenu ul li a{
+    color: #5ea5fa;
+}
